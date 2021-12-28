@@ -5,7 +5,7 @@ def most_frequent_char(s):
       count[i] = 0
     count[i] += 1
     
-  best = None;
+  best = None
   
   for i in s:
     if best is None or count[i] > count[best]:

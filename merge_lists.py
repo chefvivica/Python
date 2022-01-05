@@ -26,7 +26,7 @@ def merge_lists(head_1, head_2):
   
   return dummy_head.next
 
-#recersive
+#recursive
 
 def merge_lists_2(head_1, head_2):
   if head_1 is None and head_2 is None:
